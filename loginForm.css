@@ -3,7 +3,117 @@
    margin-left:auto;
    max-width: 400px;
    height: 200px;
+   position:relative;
+   top:200px;
    background: #f3f3f3;
-   font: 14px Arial, Helvetica, sans-serif;
+   
+   border-radius: 7px;
+}
 
+
+.login h1 {
+	font: 20px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #11b0ff;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	padding-top: 10px;
+	text-align: center;
+	height: 2.1em;
+}
+
+.login h1>span {
+	font: 16px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	display: block;
+
+}
+
+.login label {
+	font: 14px Arial, Helvetica, sans-serif;
+	display: block;
+	padding-top: 10px;
+	padding-left: 30px;
+
+}
+
+.login label>span {
+	font: 16px Arial, Helvetica, sans-serif;
+	text-align: right;
+	float: left;
+	width: 20%;
+	padding-left: 16px;
+
+	padding-right: 15px;
+}
+
+
+.login input[type=text], input[type=password] {
+	-webkit-transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+ 	-ms-transition: all 0.35s ease-in-out;
+ 	-o-transition: all 0.35s ease-in-out;
+ 	border: 1px solid #DDDDDD;
+}
+
+
+.login input[type=text]:focus, input[type=password]:focus {
+	box-shadow: 0 0 5px #18a49f;
+	border: 1px solid #18a49f;
+	outline: 0;
+}
+
+
+.login .button {
+   background-color: #58abd5	;
+   border-radius: 3px;
+   border: none;
+   width: 100px;
+   height: 2em;
+   font: 1em Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   text-decoration: none;
+   -webkit-transition: all 0.75s ease-out;
+   transition: all 0.75s ease-out;
+
+}
+
+.login .button:hover {
+   background-color: #3bbc75;
+   border-radius: 3px;
+   border: none;
+   width: 100px;
+   height: 2em;
+   font: 1em Arial, Helvetica, sans-serif;
+   color: #ffffff;
+   text-decoration: none;
+   font-weight: bold;
+   cursor: pointer;
+
+   -webkit-transition: all 0.75s ease-out;
+   transition: all 0.75s ease-out;
+
+
+}
+
+
+a {
+   -webkit-transition: all 0.75s ease-out;
+   transition: all 0.75s ease-out;
+   font-weight: bold;	
+}
+a:visited {
+	text-decoration: none;
+	color: #6d6e6f;
+}
+
+a:link {
+	text-decoration: none;
+	color: #6d6e6f;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #0977ff;
 }
