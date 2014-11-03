@@ -17,12 +17,12 @@
 
 	<label>
 		<span>Username</span>
-		<input type="text" name="Username" placeholder="Username">
+		<input type="text" name="Username" placeholder="Username" maxlength="8">
 	</label>
 
 	<label>
 		<span>Password</span>
-		<input type="password" name="Password" placeholder="Password">
+		<input type="password" name="Password" placeholder="Password" maxlength="20">
 	</label>
 
 
